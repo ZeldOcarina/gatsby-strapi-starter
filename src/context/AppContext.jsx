@@ -4,6 +4,8 @@ import { useMediaQuery } from "react-responsive"
 const AppContext = React.createContext({})
 
 function ContextProvider(props) {
+  const isBrowser = typeof window !== "undefined"
+
   const isTabLand = useMediaQuery({ query: "(max-width: 75em)" })
   const isTabPort = useMediaQuery({ query: "(max-width: 56.25em)" })
   const isPhoneLand = useMediaQuery({ query: "(max-height: 400px)" })
@@ -46,6 +48,7 @@ function ContextProvider(props) {
         setIsFormSubmitting,
         isMobileMenuOpen,
         setIsMobileMenuOpen,
+        isBrowser,
       }}
     >
       {props.children}

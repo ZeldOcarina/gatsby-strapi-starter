@@ -28,7 +28,7 @@ const Seo = ({ title, description, language }) => {
       <meta property="og:image:type" content="image/png" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link
+      {/* <link
         rel="preconnect"
         href="https://fonts.gstatic.com"
         crossOrigin="true"
@@ -36,7 +36,8 @@ const Seo = ({ title, description, language }) => {
       <link
         href="https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&family=Work+Sans:wght@600&display=swap"
         rel="stylesheet"
-      />
+      /> */}
+      <link rel="stylesheet" href="https://use.typekit.net/nxf4ohg.css" />
       {/* FAVICONS */}
       <link
         rel="apple-touch-icon"
