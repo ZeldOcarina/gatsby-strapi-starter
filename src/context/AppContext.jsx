@@ -22,12 +22,8 @@ function ContextProvider(props) {
     last_name: "",
     email: "",
     phone_number: "",
-    net_amount: "Meno di €30.000",
-    saving_amount: "Meno di €300",
-    ready_to_invest: true,
     privacy_accepted: false,
     newsletter_accepted: false,
-    qualified: false,
   })
 
   const [isFormSubmitting, setIsFormSubmitting] = useState(false)

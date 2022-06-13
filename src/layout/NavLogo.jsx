@@ -3,7 +3,7 @@ import styled, { css } from "styled-components"
 import respond from "../styles/abstracts/mediaqueries"
 import { LocationContext } from "../context/LocationContext"
 
-import ipsumLogo from "../images/ipsum-logo.svg"
+import ipsumLogo from "../images/gatsby-logo.svg"
 import { Link } from "gatsby"
 import { createLinkWithParams } from "../utils/utils"
 

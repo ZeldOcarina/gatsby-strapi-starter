@@ -1,8 +1,8 @@
 module.exports = {
   siteUrl: "https://giovannisetticonsulting.com",
-  title: "Giovanni Setti | Consulente Finanziario Indipendente",
+  title: "Gatsby Starter | A Great Starting Point for GatsbyJS",
   description:
-    "Giovanni Setti è un Consulente Finanziario Indipendente. Scopri come investire con successo e mettere al sicuro il tuo futuro.",
+    "A great starting point to make your next beautiful GatsbyJS app.",
   author: "Mattia Rasulo",
   navbarLinks: {
     social: {
